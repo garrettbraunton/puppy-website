@@ -20,7 +20,7 @@ export default function PuppyLitterWebsite() {
       price: "$2,500",
       available: false,
       image:
-        "Puppy images/hank3.jpg",
+        "puppies/hank3.jpg",
       description: "At 5 weeks he is a bit more timid out of the bunch, but is curious and building confidence. He will open up with you once he feels comfortable!",
     },
     {
@@ -31,7 +31,7 @@ export default function PuppyLitterWebsite() {
       price: "$2,500",
       available: true,
       image:
-        "Puppy images/benny5.jpg",
+        "puppies/benny5.jpg",
       description: "At 5 weeks he is rambunctious, energetic, and fearless. He is a little ball of energy and has a strong sense of adventure!",
     },
     {
@@ -42,7 +42,7 @@ export default function PuppyLitterWebsite() {
       price: "$2,500",
       available: true,
       image:
-        "Puppy images/bruno3.jpg",
+        "puppies/bruno3.jpg",
       description: "At 5 weeks he is super sweet and playful. Loves to be held and play with his siblings!",
     },
     {
@@ -53,7 +53,7 @@ export default function PuppyLitterWebsite() {
       price: "$2,700",
       available: true,
       image:
-        "Puppy images/betty11.jpg",
+        "puppies/betty11.jpg",
       description: "At 5 weeks old Betty loves to be held and cuddle. She is playful and energetic but loves to find a nice corner to pass out in laying on her back!",
     },
         {
@@ -64,7 +64,7 @@ export default function PuppyLitterWebsite() {
       price: "$2,700",
       available: false,
       image:
-        "Puppy images/maple3.jpg",
+        "puppies/maple3.jpg",
       description: "At 5 weeks old Maple loves to pounce on her siblings and give kisses to whoever is holding her. She is extremely lovey and the smallest of the bunch.",
     },
   ];
@@ -361,85 +361,85 @@ className="mx-auto max-w-6xl px-6 py-16">
 
         <div className="grid gap-4 md:grid-cols-4">
           <img
-            src="Puppy images/bruno1.jpg"
+            src="puppies/bruno1.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/bruno2.jpg"
+            src="puppies/bruno2.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/maplec.jpg"
+            src="puppies/maplec.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/maple4.jpg"
+            src="puppies/maple4.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/maple16.jpg"
+            src="puppies/maple16.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/betty3.jpg"
+            src="puppies/betty3.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/betty16.jpg"
+            src="puppies/betty16.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/betty18.jpg"
+            src="puppies/betty18.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/benny9.jpg"
+            src="puppies/benny9.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/benny1.jpg"
+            src="puppies/benny1.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/benny15.jpg"
+            src="puppies/benny15.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/hank13.jpg"
+            src="puppies/hank13.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/hank8.jpg"
+            src="puppies/hank8.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
 
           <img
-            src="Puppy images/hank11.jpg"
+            src="puppies/hank11.jpg"
             className="h-72 w-full rounded-3xl object-cover"
             alt="Gallery"
           />
