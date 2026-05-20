@@ -467,7 +467,7 @@ className="mx-auto max-w-6xl px-6 py-16">
       {/* Image */}
       <div className="lg:w-1/2">
         <img
-          src="/puppies/willowbaby.JPG"
+          src="/puppies/willow5.jpg"
           alt="Mother Dog"
           className="h-full w-full object-cover lg:h-[500px]"
         />
