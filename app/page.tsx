@@ -73,29 +73,40 @@ export default function PuppyLitterWebsite() {
     <div
   className={`${inter.className} min-h-screen scroll-smooth bg-stone-50 text-stone-800`}
     >
-{/* Hero Section */}
-<section 
-id = "top"
-className="relative overflow-hidden bg-gradient-to-b from-amber-50 via-stone-50 to-emerald-50 px-6 py-20 text-center">
-  
-  {/* soft glow background shapes */}
-  <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-emerald-100 opacity-20 blur-3xl" />
-  <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-amber-100 opacity-20 blur-3xl" />
+{/* Boutique Hero Section */}
+<section
+  id="top"
+  className="relative flex items-center justify-center px-6 py-28 bg-stone-50"
+>
+  {/* Background Image (less blur, sharper look) */}
+  <div
+    className="absolute inset-0 bg-cover bg-center scale-105"
+    style={{
+      backgroundImage: "url('/puppies/allpuppies.JPG')",
+    }}
+  />
 
-  {/* Brand Title */}
-  <h1 className="relative text-5xl font-semibold tracking-tight text-stone-900 md:text-6xl">
-    Willie-Wilson Doodles
-  </h1>
+  {/* Softer overlay instead of blur doing all the work */}
+  <div className="absolute inset-0 bg-stone-900/35" />
 
-  {/* Subtext */}
-  <p className="relative mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-stone-600">
-    Schedule a time to meet our perfect little Multi-Gen Doodle puppies now!
-  </p>
+  {/* Content Card */}
+  <div className="relative z-10 mx-auto max-w-3xl rounded-3xl bg-white/10 p-10 text-center backdrop-blur-sm shadow-2xl border border-white/20">
 
-  {/* Location */}
-  <p className="relative mt-6 text-sm tracking-wide text-stone-500">
-    📍 Castle Rock, Colorado
-  </p>
+    <h1 className="mt-4 text-5xl md:text-6xl font-light tracking-tight text-white">
+      Willie-Wilson Doodles
+    </h1>
+
+    <div className="mx-auto mt-6 h-[1px] w-24 bg-white/40" />
+
+    <p className="mt-6 text-lg leading-relaxed text-white/90">
+      Where each puppy is raised like family — because they are.
+    </p>
+
+    <p className="mt-6 text-sm text-white/70">
+      📍 Castle Rock, Colorado
+    </p>
+
+  </div>
 </section>
 
 {/* Navigation */}
